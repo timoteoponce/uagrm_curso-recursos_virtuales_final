@@ -69,7 +69,7 @@
   <string role="key" value="_intendedEndUserRoleType"></string>
   <unicode value="learner"></unicode>
   <string role="key" value="_isChanged"></string>
-  <bool value="0"></bool>
+  <bool value="1"></bool>
   <string role="key" value="_isTemplate"></string>
   <bool value="0"></bool>
   <string role="key" value="_lang"></string>
@@ -85,7 +85,7 @@
   <string role="key" value="_name"></string>
   <unicode value="course_continuous_deployment"></unicode>
   <string role="key" value="_nextIdeviceId"></string>
-  <int value="12"></int>
+  <int value="15"></int>
   <string role="key" value="_nextNodeId"></string>
   <int value="10"></int>
   <string role="key" value="_nodeIdDict"></string>
@@ -195,6 +195,7 @@
 &lt;li&gt;Conocimiento básico de administración de sistemas&lt;/li&gt;
 &lt;li&gt;Conocimiento de programación en cualquier lenguaje&lt;/li&gt;
 &lt;li&gt;Manejo intermedio de sistemas Unix o Windows&lt;/li&gt;
+&lt;li&gt;Dominio de Inglés para lectura&lt;/li&gt;
 &lt;/ol&gt;&lt;/div&gt;"></unicode>
            <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
            <int value="4"></int>
@@ -1185,7 +1186,7 @@
 &lt;li&gt;Integración y producción deben ser idénticos en recursos&lt;/li&gt;
 &lt;li&gt;Integración y producción deben ser idénticos en infraestructura de software (e.g. bases de datos, plataformas)&lt;/li&gt;
 &lt;li&gt;Integración debe tener o simular la carga de producción&lt;/li&gt;
-&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;Intrgración debe tener datos similares a los de producción&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Referencias&lt;/h2&gt;
 &lt;ul&gt;
@@ -1668,6 +1669,130 @@
               <int value="0"></int>
              </dictionary>
             </instance>
+            <instance class="exe.engine.jsidevice.JsIdevice" reference="30">
+             <dictionary>
+              <string role="key" value="_title"></string>
+              <unicode value="Task"></unicode>
+              <string role="key" value="_attributes"></string>
+              <list>
+               <tuple>
+                <string value="title"></string>
+                <list>
+                 <string value="Title"></string>
+                 <int value="0"></int>
+                 <int value="0"></int>
+                </list>
+               </tuple>
+               <tuple>
+                <string value="category"></string>
+                <list>
+                 <string value="Category"></string>
+                 <int value="0"></int>
+                 <int value="1"></int>
+                </list>
+               </tuple>
+               <tuple>
+                <string value="css-class"></string>
+                <list>
+                 <string value="CSS class"></string>
+                 <int value="0"></int>
+                 <int value="2"></int>
+                </list>
+               </tuple>
+               <tuple>
+                <string value="icon"></string>
+                <list>
+                 <string value="Icon"></string>
+                 <int value="0"></int>
+                 <int value="3"></int>
+                </list>
+               </tuple>
+              </list>
+              <string role="key" value="_author"></string>
+              <string value=""></string>
+              <string role="key" value="_iDeviceDir"></string>
+              <string value="pbl-tools"></string>
+              <string role="key" value="_purpose"></string>
+              <string value=""></string>
+              <string role="key" value="_tip"></string>
+              <string value=""></string>
+              <string role="key" value="_valid"></string>
+              <bool value="1"></bool>
+              <string role="key" value="class_"></string>
+              <unicode value="pbl"></unicode>
+              <string role="key" value="edit"></string>
+              <bool value="0"></bool>
+              <string role="key" value="emphasis"></string>
+              <int value="1"></int>
+              <string role="key" value="exe.engine.jsidevice.JsIdevice.persistenceVersion"></string>
+              <int value="1"></int>
+              <string role="key" value="fields"></string>
+              <list>
+               <instance class="exe.engine.field.TextAreaField" reference="31">
+                <dictionary>
+                 <string role="key" value="_id"></string>
+                 <unicode value="108_2"></unicode>
+                 <string role="key" value="_idevice"></string>
+                 <reference key="30"></reference>
+                 <string role="key" value="_instruc"></string>
+                 <string value=""></string>
+                 <string role="key" value="_name"></string>
+                 <string value=""></string>
+                 <string role="key" value="anchor_names"></string>
+                 <list></list>
+                 <string role="key" value="content_w_resourcePaths"></string>
+                 <unicode content="true" value="&lt;dl class=&quot;pbl-task-info&quot;&gt;&lt;dt class=&quot;pbl-task-duration&quot;&gt;&lt;span&gt;Duration:&lt;/span&gt;&lt;/dt&gt;&lt;dd class=&quot;pbl-task-duration&quot;&gt;15:00&lt;/dd&gt;&lt;/dl&gt;&lt;div class=&quot;pbl-task-description&quot;&gt;&lt;p&gt;Revise los principios IBM para despliegue de sistemas de software.&lt;/p&gt;
+&lt;p&gt;&lt;iframe width=&quot;560&quot; height=&quot;314&quot; src=&quot;https://www.youtube.com/embed/LNLKZ4Rvk8w&quot; allowfullscreen=&quot;allowfullscreen&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
+                 <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                 <int value="4"></int>
+                 <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                 <int value="2"></int>
+                 <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                 <int value="3"></int>
+                 <string role="key" value="htmlTag"></string>
+                 <string value="div"></string>
+                 <string role="key" value="images"></string>
+                 <instance class="exe.engine.galleryidevice.GalleryImages">
+                  <dictionary>
+                   <string role="key" value=".listitems"></string>
+                   <list></list>
+                   <string role="key" value="idevice"></string>
+                   <reference key="31"></reference>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="intlinks_to_anchors"></string>
+                 <dictionary></dictionary>
+                 <string role="key" value="nextImageId"></string>
+                 <int value="0"></int>
+                 <string role="key" value="parentNode"></string>
+                 <none></none>
+                </dictionary>
+               </instance>
+              </list>
+              <string role="key" value="icon"></string>
+              <unicode value="activity"></unicode>
+              <string role="key" value="id"></string>
+              <unicode value="12"></unicode>
+              <string role="key" value="ideviceCategory"></string>
+              <unicode value="Text and Tasks"></unicode>
+              <string role="key" value="lastIdevice"></string>
+              <bool value="0"></bool>
+              <string role="key" value="nextFieldId"></string>
+              <int value="3"></int>
+              <string role="key" value="originalicon"></string>
+              <unicode value="activity"></unicode>
+              <string role="key" value="parentNode"></string>
+              <reference key="21"></reference>
+              <string role="key" value="systemResources"></string>
+              <list></list>
+              <string role="key" value="undo"></string>
+              <bool value="1"></bool>
+              <string role="key" value="userResources"></string>
+              <list></list>
+              <string role="key" value="version"></string>
+              <int value="0"></int>
+             </dictionary>
+            </instance>
            </list>
            <string role="key" value="_id"></string>
            <unicode value="6"></unicode>
@@ -1689,12 +1814,450 @@
            <list></list>
           </dictionary>
          </instance>
-         <instance class="exe.engine.node.Node" reference="36">
+         <instance class="exe.engine.node.Node" reference="34">
           <dictionary>
            <string role="key" value="_title"></string>
            <unicode value="Principios Lean"></unicode>
            <string role="key" value="idevices"></string>
-           <list></list>
+           <list>
+            <instance class="exe.engine.jsidevice.JsIdevice" reference="32">
+             <dictionary>
+              <string role="key" value="_title"></string>
+              <unicode value="Revisemos previamente: Lean"></unicode>
+              <string role="key" value="_attributes"></string>
+              <list>
+               <tuple>
+                <string value="title"></string>
+                <list>
+                 <string value="Title"></string>
+                 <int value="0"></int>
+                 <int value="0"></int>
+                </list>
+               </tuple>
+               <tuple>
+                <string value="category"></string>
+                <list>
+                 <string value="Category"></string>
+                 <int value="0"></int>
+                 <int value="1"></int>
+                </list>
+               </tuple>
+               <tuple>
+                <string value="css-class"></string>
+                <list>
+                 <string value="CSS class"></string>
+                 <int value="0"></int>
+                 <int value="2"></int>
+                </list>
+               </tuple>
+               <tuple>
+                <string value="icon"></string>
+                <list>
+                 <string value="Icon"></string>
+                 <int value="0"></int>
+                 <int value="3"></int>
+                </list>
+               </tuple>
+              </list>
+              <string role="key" value="_author"></string>
+              <string value=""></string>
+              <string role="key" value="_iDeviceDir"></string>
+              <string value="pbl-tools"></string>
+              <string role="key" value="_purpose"></string>
+              <string value=""></string>
+              <string role="key" value="_tip"></string>
+              <string value=""></string>
+              <string role="key" value="_valid"></string>
+              <bool value="1"></bool>
+              <string role="key" value="class_"></string>
+              <unicode value="pbl"></unicode>
+              <string role="key" value="edit"></string>
+              <bool value="0"></bool>
+              <string role="key" value="emphasis"></string>
+              <int value="1"></int>
+              <string role="key" value="exe.engine.jsidevice.JsIdevice.persistenceVersion"></string>
+              <int value="1"></int>
+              <string role="key" value="fields"></string>
+              <list>
+               <instance class="exe.engine.field.TextAreaField" reference="33">
+                <dictionary>
+                 <string role="key" value="_id"></string>
+                 <unicode value="110_2"></unicode>
+                 <string role="key" value="_idevice"></string>
+                 <reference key="32"></reference>
+                 <string role="key" value="_instruc"></string>
+                 <string value=""></string>
+                 <string role="key" value="_name"></string>
+                 <string value=""></string>
+                 <string role="key" value="anchor_names"></string>
+                 <list></list>
+                 <string role="key" value="content_w_resourcePaths"></string>
+                 <unicode content="true" value="&lt;div class=&quot;pbl-task-description&quot;&gt;&lt;p&gt;Leamos el siguiente artículo para adentrarnos a Lean:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;resources/book.png&quot; alt=&quot;Lean software development article&quot; title=&quot;Lean software development article&quot; width=&quot;281&quot; height=&quot;350&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://ptgmedia.pearsoncmg.com/images/9780321150783/samplepages/0321150783.pdf&quot; target=&quot;_blank&quot; title=&quot;Lean Software Development Toolkit&quot; rel=&quot;noopener&quot;&gt;Lean Software Development Toolkit&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
+                 <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                 <int value="4"></int>
+                 <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                 <int value="2"></int>
+                 <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                 <int value="3"></int>
+                 <string role="key" value="htmlTag"></string>
+                 <string value="div"></string>
+                 <string role="key" value="images"></string>
+                 <instance class="exe.engine.galleryidevice.GalleryImages">
+                  <dictionary>
+                   <string role="key" value=".listitems"></string>
+                   <list>
+                    <instance class="exe.engine.galleryidevice.GalleryImage">
+                     <dictionary>
+                      <string role="key" value="_caption"></string>
+                      <instance class="exe.engine.field.TextField">
+                       <dictionary>
+                        <string role="key" value="_id"></string>
+                        <int value="235"></int>
+                        <string role="key" value="_idevice"></string>
+                        <none></none>
+                        <string role="key" value="_instruc"></string>
+                        <string value=""></string>
+                        <string role="key" value="_name"></string>
+                        <string value=""></string>
+                        <string role="key" value="content"></string>
+                        <string value=""></string>
+                        <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                        <int value="4"></int>
+                       </dictionary>
+                      </instance>
+                      <string role="key" value="_id"></string>
+                      <unicode value="14_110_2.0"></unicode>
+                      <string role="key" value="_imageResource"></string>
+                      <instance class="exe.engine.resource.Resource" reference="35">
+                       <dictionary>
+                        <string role="key" value="_idevice"></string>
+                        <reference key="32"></reference>
+                        <string role="key" value="_package"></string>
+                        <reference key="2"></reference>
+                        <string role="key" value="_storageName"></string>
+                        <string value="book.png"></string>
+                        <string role="key" value="_userName"></string>
+                        <string value="/var/folders/bx/dkhkd5311x1f2rbj5hgjgwnw0000gn/T/tmp_Tkamn.eXe/previews/allyourbase/book.png"></string>
+                        <string role="key" value="checksum"></string>
+                        <string value="f94fc92fb61b7a8edd4ff390cdc6aabf"></string>
+                        <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                        <int value="2"></int>
+                        <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                        <int value="2"></int>
+                        <string role="key" value="warningMsg"></string>
+                        <string value=""></string>
+                       </dictionary>
+                      </instance>
+                      <string role="key" value="_parent"></string>
+                      <reference key="33"></reference>
+                      <string role="key" value="_thumbnailResource"></string>
+                      <none></none>
+                      <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                      <int value="3"></int>
+                      <string role="key" value="makeThumbnail"></string>
+                      <bool value="0"></bool>
+                     </dictionary>
+                    </instance>
+                   </list>
+                   <string role="key" value="idevice"></string>
+                   <reference key="33"></reference>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="intlinks_to_anchors"></string>
+                 <dictionary></dictionary>
+                 <string role="key" value="nextImageId"></string>
+                 <int value="1"></int>
+                 <string role="key" value="parentNode"></string>
+                 <reference key="34"></reference>
+                </dictionary>
+               </instance>
+              </list>
+              <string role="key" value="icon"></string>
+              <unicode value="activity"></unicode>
+              <string role="key" value="id"></string>
+              <unicode value="14"></unicode>
+              <string role="key" value="ideviceCategory"></string>
+              <unicode value="Text and Tasks"></unicode>
+              <string role="key" value="lastIdevice"></string>
+              <bool value="0"></bool>
+              <string role="key" value="nextFieldId"></string>
+              <int value="3"></int>
+              <string role="key" value="originalicon"></string>
+              <unicode value="activity"></unicode>
+              <string role="key" value="parentNode"></string>
+              <reference key="34"></reference>
+              <string role="key" value="systemResources"></string>
+              <list></list>
+              <string role="key" value="undo"></string>
+              <bool value="1"></bool>
+              <string role="key" value="userResources"></string>
+              <list>
+               <reference key="35"></reference>
+              </list>
+              <string role="key" value="version"></string>
+              <int value="0"></int>
+             </dictionary>
+            </instance>
+            <instance class="exe.engine.jsidevice.JsIdevice" reference="36">
+             <dictionary>
+              <string role="key" value="_title"></string>
+              <unicode value=""></unicode>
+              <string role="key" value="_attributes"></string>
+              <list>
+               <tuple>
+                <string value="title"></string>
+                <list>
+                 <string value="Title"></string>
+                 <int value="0"></int>
+                 <int value="0"></int>
+                </list>
+               </tuple>
+               <tuple>
+                <string value="category"></string>
+                <list>
+                 <string value="Category"></string>
+                 <int value="0"></int>
+                 <int value="1"></int>
+                </list>
+               </tuple>
+               <tuple>
+                <string value="css-class"></string>
+                <list>
+                 <string value="CSS class"></string>
+                 <int value="0"></int>
+                 <int value="2"></int>
+                </list>
+               </tuple>
+               <tuple>
+                <string value="icon"></string>
+                <list>
+                 <string value="Icon"></string>
+                 <int value="0"></int>
+                 <int value="3"></int>
+                </list>
+               </tuple>
+              </list>
+              <string role="key" value="_author"></string>
+              <string value=""></string>
+              <string role="key" value="_iDeviceDir"></string>
+              <string value="text"></string>
+              <string role="key" value="_purpose"></string>
+              <string value=""></string>
+              <string role="key" value="_tip"></string>
+              <string value=""></string>
+              <string role="key" value="_valid"></string>
+              <bool value="1"></bool>
+              <string role="key" value="class_"></string>
+              <unicode value="text"></unicode>
+              <string role="key" value="edit"></string>
+              <bool value="0"></bool>
+              <string role="key" value="emphasis"></string>
+              <int value="0"></int>
+              <string role="key" value="exe.engine.jsidevice.JsIdevice.persistenceVersion"></string>
+              <int value="1"></int>
+              <string role="key" value="fields"></string>
+              <list>
+               <instance class="exe.engine.field.TextAreaField" reference="37">
+                <dictionary>
+                 <string role="key" value="_id"></string>
+                 <unicode value="109_2"></unicode>
+                 <string role="key" value="_idevice"></string>
+                 <reference key="36"></reference>
+                 <string role="key" value="_instruc"></string>
+                 <string value=""></string>
+                 <string role="key" value="_name"></string>
+                 <string value=""></string>
+                 <string role="key" value="anchor_names"></string>
+                 <list></list>
+                 <string role="key" value="content_w_resourcePaths"></string>
+                 <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;Ahora nos adentraremos al tema de Principios Lean, que nos van a ser útiles para el desarrollo y despliegue de software en general. &lt;/p&gt;
+&lt;h2&gt;Por qué son importantes?&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Primero&lt;/strong&gt;, los principios Lean vienen de los rubros de fabricación de automóviles y líneas de ensamblaje, espececíficamente de Toyota, estos principios han sido aplicados al área de construcción de software de forma exitosa en la última década. Entre los fabricantes de software que utilizan principios Lean para desarrollo de software, tenemos:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Toyota (obviamente)&lt;/li&gt;
+&lt;li&gt;3M&lt;/li&gt;
+&lt;li&gt;IBM&lt;/li&gt;
+&lt;li&gt;Eclipse foundation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Segundo&lt;/strong&gt;, nos provee una visión diferente a los métodos usuales de desarrollo de software, y al tener un punto de vista diferente nos brinda una colección diferente de herramientas para analizar y construir sistemas de software en ambientes variados. &lt;strong&gt;Tercero&lt;/strong&gt;, se enfoca en el trabajo en equipo, en valorizar más el trabajo en equipo que las diferentes formas de administración y control que suelen encontrarse en los diferentes ambientes de trabajo.&lt;/p&gt;
+&lt;p&gt;Si hacemos una comparación entre las metodologías de desarrollo actuales, tenemos la aproximación normal:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;resources/agile_vs_lean_1.png&quot; alt=&quot;Agile vs Lean 1&quot; title=&quot;Agile vs Lean 1&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; width=&quot;949&quot; height=&quot;350&quot; /&gt;En el gráfico apreciamos que la forma de trabajo está orientada a esquivar los problemas y obstáculos a medida que se presenten, podemos tomarla como una forma de trabajo &lt;em&gt;reactiva &lt;/em&gt;donde los problemas y sus soluciones se van descubriendo a medida que se avanza en el proyecto.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;resources/agile_vs_lean_2.png&quot; alt=&quot;Agile vs Lean 2&quot; title=&quot;Agile vs Lean 2&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; width=&quot;997&quot; height=&quot;300&quot; /&gt;En este diagrama, podemos observar la forma de trabajo Lean y sus principales diferencias. Lean se inicia con la identificación y eliminación de problemas antes de iniciar el trabajo, reduciendo de esta forma el trabajo perdido y el coste relacionado al mismo, en base a esta forma de trabajo, Lean es una aproximación &lt;em&gt;proactiva&lt;/em&gt;.&lt;/p&gt;
+&lt;h3&gt;Eliminar desperdicios&lt;/h3&gt;
+&lt;p&gt;Este principio indica que debemos eliminar los desperdicios en los procesos y artefactos de desarrollo de software, pero como paso necesario para remover el desperdicio debemos primero identificarlo. El proceso de identificación de desperdicio en el desarrollo de software no se limita al proceso de codificación, sino también a todas las actividades relacionadas a la construcción de software. Algunos de los ejemplos miscelaneos de desperdicio:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Reuniones o llamadas diarias innecesarias o que podrían reemplazarse con un correo electrónico o informe&lt;/li&gt;
+&lt;li&gt;Archivos obsoletos de log en un sistema&lt;/li&gt;
+&lt;li&gt;Errores de seguridad antiguos&lt;/li&gt;
+&lt;li&gt;Dependencias de software obsoletas&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Amplificar aprendizaje&lt;/h3&gt;
+&lt;p&gt;Indica que debemos empoderar a los desarrolladores, a los usuarios finales y a los administradores a un flujo de trabajo de aprendizaje continuo. Este principio indica que todas las partes involucradas en el desarrollo de un sistema deben involucrarse como si el ambiente de trabajo fuese un ambiente de aprendizaje, como un aula, donde todos colaboramos y aprendemos de ambos ambientes de trabajo.&lt;/p&gt;
+&lt;h3&gt;Retrasar decisiones&lt;/h3&gt;
+&lt;p&gt;En este principio, se indica que debemos tomar las decisiones de diseño de un sistema de software lo más tarde posible. El objetivo de este principio es reducir las posibles dependencias explícitas e implícitas envueltas en una decisión de diseño. Y al tener estas decisiones retrasadas, nos orientamos a crear sistemas más flexibles, porque el punto de integración y espera de una decisión generará un esquema de diseño mas versátil.&lt;/p&gt;
+&lt;h3&gt;Desplegar lo más rápido posible&lt;/h3&gt;
+&lt;p&gt;El despliegue temprano y frecuente nos permite tener un ciclo de retroalimentación y trabajo mas corto, similar a un ambiente de experimentación. Con un ambiente de experimentación con ciclos cortos y retroalimentación temprana podemos crear sistemas más consistentes y correctos. Este principio fué la punta de lanza de Lean en el ámbito de desarrollo y permitió la adopción gradual de los demás principios.&lt;/p&gt;&lt;/div&gt;"></unicode>
+                 <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                 <int value="4"></int>
+                 <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                 <int value="2"></int>
+                 <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                 <int value="3"></int>
+                 <string role="key" value="htmlTag"></string>
+                 <string value="div"></string>
+                 <string role="key" value="images"></string>
+                 <instance class="exe.engine.galleryidevice.GalleryImages">
+                  <dictionary>
+                   <string role="key" value=".listitems"></string>
+                   <list>
+                    <instance class="exe.engine.galleryidevice.GalleryImage">
+                     <dictionary>
+                      <string role="key" value="_caption"></string>
+                      <instance class="exe.engine.field.TextField">
+                       <dictionary>
+                        <string role="key" value="_id"></string>
+                        <int value="233"></int>
+                        <string role="key" value="_idevice"></string>
+                        <none></none>
+                        <string role="key" value="_instruc"></string>
+                        <string value=""></string>
+                        <string role="key" value="_name"></string>
+                        <string value=""></string>
+                        <string role="key" value="content"></string>
+                        <string value=""></string>
+                        <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                        <int value="4"></int>
+                       </dictionary>
+                      </instance>
+                      <string role="key" value="_id"></string>
+                      <unicode value="13_109_2.0"></unicode>
+                      <string role="key" value="_imageResource"></string>
+                      <instance class="exe.engine.resource.Resource" reference="38">
+                       <dictionary>
+                        <string role="key" value="_idevice"></string>
+                        <reference key="36"></reference>
+                        <string role="key" value="_package"></string>
+                        <reference key="2"></reference>
+                        <string role="key" value="_storageName"></string>
+                        <string value="agile_vs_lean_1.png"></string>
+                        <string role="key" value="_userName"></string>
+                        <string value="/var/folders/bx/dkhkd5311x1f2rbj5hgjgwnw0000gn/T/tmp_Tkamn.eXe/previews/allyourbase/agile_vs_lean_1.png"></string>
+                        <string role="key" value="checksum"></string>
+                        <string value="c5a1a5a981040ead5ebe123a45743e7f"></string>
+                        <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                        <int value="2"></int>
+                        <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                        <int value="2"></int>
+                        <string role="key" value="warningMsg"></string>
+                        <string value=""></string>
+                       </dictionary>
+                      </instance>
+                      <string role="key" value="_parent"></string>
+                      <reference key="37"></reference>
+                      <string role="key" value="_thumbnailResource"></string>
+                      <none></none>
+                      <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                      <int value="3"></int>
+                      <string role="key" value="makeThumbnail"></string>
+                      <bool value="0"></bool>
+                     </dictionary>
+                    </instance>
+                    <instance class="exe.engine.galleryidevice.GalleryImage">
+                     <dictionary>
+                      <string role="key" value="_caption"></string>
+                      <instance class="exe.engine.field.TextField">
+                       <dictionary>
+                        <string role="key" value="_id"></string>
+                        <int value="234"></int>
+                        <string role="key" value="_idevice"></string>
+                        <none></none>
+                        <string role="key" value="_instruc"></string>
+                        <string value=""></string>
+                        <string role="key" value="_name"></string>
+                        <string value=""></string>
+                        <string role="key" value="content"></string>
+                        <string value=""></string>
+                        <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                        <int value="4"></int>
+                       </dictionary>
+                      </instance>
+                      <string role="key" value="_id"></string>
+                      <unicode value="13_109_2.1"></unicode>
+                      <string role="key" value="_imageResource"></string>
+                      <instance class="exe.engine.resource.Resource" reference="39">
+                       <dictionary>
+                        <string role="key" value="_idevice"></string>
+                        <reference key="36"></reference>
+                        <string role="key" value="_package"></string>
+                        <reference key="2"></reference>
+                        <string role="key" value="_storageName"></string>
+                        <string value="agile_vs_lean_2.png"></string>
+                        <string role="key" value="_userName"></string>
+                        <string value="/var/folders/bx/dkhkd5311x1f2rbj5hgjgwnw0000gn/T/tmp_Tkamn.eXe/previews/allyourbase/agile_vs_lean_2.png"></string>
+                        <string role="key" value="checksum"></string>
+                        <string value="f3c377c639f8918894ea9c83eb212e8d"></string>
+                        <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                        <int value="2"></int>
+                        <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                        <int value="2"></int>
+                        <string role="key" value="warningMsg"></string>
+                        <string value=""></string>
+                       </dictionary>
+                      </instance>
+                      <string role="key" value="_parent"></string>
+                      <reference key="37"></reference>
+                      <string role="key" value="_thumbnailResource"></string>
+                      <none></none>
+                      <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                      <int value="3"></int>
+                      <string role="key" value="makeThumbnail"></string>
+                      <bool value="0"></bool>
+                     </dictionary>
+                    </instance>
+                   </list>
+                   <string role="key" value="idevice"></string>
+                   <reference key="37"></reference>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="intlinks_to_anchors"></string>
+                 <dictionary></dictionary>
+                 <string role="key" value="nextImageId"></string>
+                 <int value="2"></int>
+                 <string role="key" value="parentNode"></string>
+                 <reference key="34"></reference>
+                </dictionary>
+               </instance>
+              </list>
+              <string role="key" value="icon"></string>
+              <unicode value=""></unicode>
+              <string role="key" value="id"></string>
+              <unicode value="13"></unicode>
+              <string role="key" value="ideviceCategory"></string>
+              <unicode value="Text and Tasks"></unicode>
+              <string role="key" value="lastIdevice"></string>
+              <bool value="0"></bool>
+              <string role="key" value="nextFieldId"></string>
+              <int value="3"></int>
+              <string role="key" value="originalicon"></string>
+              <string value=""></string>
+              <string role="key" value="parentNode"></string>
+              <reference key="34"></reference>
+              <string role="key" value="systemResources"></string>
+              <list></list>
+              <string role="key" value="undo"></string>
+              <bool value="1"></bool>
+              <string role="key" value="userResources"></string>
+              <list>
+               <reference key="38"></reference>
+               <reference key="39"></reference>
+              </list>
+              <string role="key" value="version"></string>
+              <int value="0"></int>
+             </dictionary>
+            </instance>
+           </list>
            <string role="key" value="_id"></string>
            <unicode value="7"></unicode>
            <string role="key" value="_package"></string>
@@ -1715,7 +2278,7 @@
            <list></list>
           </dictionary>
          </instance>
-         <instance class="exe.engine.node.Node" reference="37">
+         <instance class="exe.engine.node.Node" reference="46">
           <dictionary>
            <string role="key" value="_title"></string>
            <unicode value="Gestión de configuración"></unicode>
@@ -1741,13 +2304,13 @@
            <list></list>
           </dictionary>
          </instance>
-         <instance class="exe.engine.node.Node" reference="32">
+         <instance class="exe.engine.node.Node" reference="42">
           <dictionary>
            <string role="key" value="_title"></string>
            <unicode value="Taller: Construcción automatizada"></unicode>
            <string role="key" value="idevices"></string>
            <list>
-            <instance class="exe.engine.jsidevice.JsIdevice" reference="30">
+            <instance class="exe.engine.jsidevice.JsIdevice" reference="40">
              <dictionary>
               <string role="key" value="_title"></string>
               <unicode value="Construcción automatizada de una aplicación"></unicode>
@@ -1806,12 +2369,12 @@
               <int value="1"></int>
               <string role="key" value="fields"></string>
               <list>
-               <instance class="exe.engine.field.TextAreaField" reference="31">
+               <instance class="exe.engine.field.TextAreaField" reference="41">
                 <dictionary>
                  <string role="key" value="_id"></string>
                  <unicode value="119_2"></unicode>
                  <string role="key" value="_idevice"></string>
-                 <reference key="30"></reference>
+                 <reference key="40"></reference>
                  <string role="key" value="_instruc"></string>
                  <string value=""></string>
                  <string role="key" value="_name"></string>
@@ -1837,7 +2400,7 @@ var InteractiveVideo = {&quot;slides&quot;:[{&quot;type&quot;:&quot;multipleChoi
                    <string role="key" value=".listitems"></string>
                    <list></list>
                    <string role="key" value="idevice"></string>
-                   <reference key="31"></reference>
+                   <reference key="41"></reference>
                   </dictionary>
                  </instance>
                  <string role="key" value="intlinks_to_anchors"></string>
@@ -1845,7 +2408,7 @@ var InteractiveVideo = {&quot;slides&quot;:[{&quot;type&quot;:&quot;multipleChoi
                  <string role="key" value="nextImageId"></string>
                  <int value="0"></int>
                  <string role="key" value="parentNode"></string>
-                 <reference key="32"></reference>
+                 <reference key="42"></reference>
                 </dictionary>
                </instance>
               </list>
@@ -1862,7 +2425,7 @@ var InteractiveVideo = {&quot;slides&quot;:[{&quot;type&quot;:&quot;multipleChoi
               <string role="key" value="originalicon"></string>
               <unicode value="presentation"></unicode>
               <string role="key" value="parentNode"></string>
-              <reference key="32"></reference>
+              <reference key="42"></reference>
               <string role="key" value="systemResources"></string>
               <list></list>
               <string role="key" value="undo"></string>
@@ -1897,7 +2460,7 @@ var InteractiveVideo = {&quot;slides&quot;:[{&quot;type&quot;:&quot;multipleChoi
         </list>
        </dictionary>
       </instance>
-      <instance class="exe.engine.node.Node" reference="33">
+      <instance class="exe.engine.node.Node" reference="43">
        <dictionary>
         <string role="key" value="_title"></string>
         <unicode value="Canales de despliegue"></unicode>
@@ -1923,7 +2486,7 @@ var InteractiveVideo = {&quot;slides&quot;:[{&quot;type&quot;:&quot;multipleChoi
         <list></list>
        </dictionary>
       </instance>
-      <instance class="exe.engine.node.Node" reference="34">
+      <instance class="exe.engine.node.Node" reference="44">
        <dictionary>
         <string role="key" value="_title"></string>
         <unicode value="Infraestructura de despliegue"></unicode>
@@ -1949,7 +2512,7 @@ var InteractiveVideo = {&quot;slides&quot;:[{&quot;type&quot;:&quot;multipleChoi
         <list></list>
        </dictionary>
       </instance>
-      <instance class="exe.engine.node.Node" reference="35">
+      <instance class="exe.engine.node.Node" reference="45">
        <dictionary>
         <string role="key" value="_title"></string>
         <unicode value="Adaptaciones de producción"></unicode>
@@ -1981,21 +2544,21 @@ var InteractiveVideo = {&quot;slides&quot;:[{&quot;type&quot;:&quot;multipleChoi
    <unicode role="key" value="1"></unicode>
    <reference key="8"></reference>
    <unicode role="key" value="2"></unicode>
-   <reference key="33"></reference>
+   <reference key="43"></reference>
    <unicode role="key" value="3"></unicode>
-   <reference key="34"></reference>
+   <reference key="44"></reference>
    <unicode role="key" value="4"></unicode>
-   <reference key="35"></reference>
+   <reference key="45"></reference>
    <unicode role="key" value="5"></unicode>
    <reference key="14"></reference>
    <unicode role="key" value="6"></unicode>
    <reference key="21"></reference>
    <unicode role="key" value="7"></unicode>
-   <reference key="36"></reference>
+   <reference key="34"></reference>
    <unicode role="key" value="8"></unicode>
-   <reference key="37"></reference>
+   <reference key="46"></reference>
    <unicode role="key" value="9"></unicode>
-   <reference key="32"></reference>
+   <reference key="42"></reference>
   </dictionary>
   <string role="key" value="_objectives"></string>
   <unicode value=""></unicode>
@@ -2006,7 +2569,7 @@ var InteractiveVideo = {&quot;slides&quot;:[{&quot;type&quot;:&quot;multipleChoi
   <string role="key" value="backgroundImgTile"></string>
   <bool value="0"></bool>
   <string role="key" value="currentNode"></string>
-  <reference key="21"></reference>
+  <reference key="4"></reference>
   <string role="key" value="dublinCore"></string>
   <instance class="exe.engine.package.DublinCore">
    <dictionary>
@@ -3296,6 +3859,10 @@ var InteractiveVideo = {&quot;slides&quot;:[{&quot;type&quot;:&quot;multipleChoi
    <list>
     <reference key="15"></reference>
    </list>
+   <string role="key" value="c5a1a5a981040ead5ebe123a45743e7f"></string>
+   <list>
+    <reference key="38"></reference>
+   </list>
    <string role="key" value="d6fd10cc6455f108b6894e2bfe26da71"></string>
    <list>
     <reference key="5"></reference>
@@ -3303,6 +3870,14 @@ var InteractiveVideo = {&quot;slides&quot;:[{&quot;type&quot;:&quot;multipleChoi
    <string role="key" value="e3f4ad3621cde13c98be95436ca1d5e2"></string>
    <list>
     <reference key="22"></reference>
+   </list>
+   <string role="key" value="f3c377c639f8918894ea9c83eb212e8d"></string>
+   <list>
+    <reference key="39"></reference>
+   </list>
+   <string role="key" value="f94fc92fb61b7a8edd4ff390cdc6aabf"></string>
+   <list>
+    <reference key="35"></reference>
    </list>
   </dictionary>
   <string role="key" value="root"></string>
