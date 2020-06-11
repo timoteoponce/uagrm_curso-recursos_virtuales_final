@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Principios de despliegue | Despliegue continuo de sistemas de software </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Juan Timoteo Ponce Ortiz" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.5 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-web-site" id="exe-node-6"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Skip navigation</a></p>
+<header id="header" ><div id="headerContent">Despliegue continuo de sistemas de software</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Despliegue continuo de sistemas de software</a></li>
+   <li class="current-page-parent"><a href="fundamentos.html" class="current-page-parent daddy">Fundamentos</a>
+   <ul>
+      <li><a href="status_quo.html" class="no-ch">Status Quo</a></li>
+      <li id="active"><a href="principios_de_despliegue.html" class="active no-ch">Principios de despliegue</a></li>
+      <li><a href="principios_lean.html" class="no-ch">Principios Lean</a></li>
+      <li><a href="gestin_de_configuracin.html" class="no-ch">Gestión de configuración</a></li>
+      <li><a href="taller_construccin_automatizada.html" class="no-ch">Taller: Construcción automatizada</a></li>
+   </ul>
+   </li>
+   <li><a href="canales_de_despliegue.html" class="no-ch">Canales de despliegue</a></li>
+   <li><a href="infraestructura_de_despliegue.html" class="no-ch">Infraestructura de despliegue</a></li>
+   <li><a href="adaptaciones_de_produccin.html" class="no-ch">Adaptaciones de producción</a></li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="status_quo.html" class="prev"><span><span>&laquo; </span>Previous</span></a> <span class="sep">| </span><a href="principios_lean.html" class="next"><span>Next<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">Principios de despliegue</h1></header>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id10">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">Cómo incrementamos valor con el despliegue de software?</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta10_123_2" class="block iDevice_content">
+<div class="exe-text"><p><img src="cope.jpg" alt="James Coplien self-portrait" title="James Coplien self-portrait" width="250" height="272" /></p>
+<blockquote class="exe-quote-cite styled-qc">
+<p style="padding-left: 30px;">Aplicando patrones y técnicas que permitan a los sistemas el ser desarrollados, entregados y desplegados frecuentemente para brindar software útil y funcional a los usuarios finales de la forma más rápida posible</p>
+<cite>Coplien, 2015 <br /></cite></blockquote>
+<p> Lo mencionado por James Coplien nos direcciona a una forma de trabajo que asegure la puesta en marcha de sistemas en forma continua y consistente, tal forma de trabajo se consigue a través de los <strong>Flujos de Despliegue</strong>.</p>
+<h2>Flujo de despliegue</h2>
+<p><img src="deployment_pipeline_01.png" alt="Deployment pipeline" title="Deployment pipeline" style="display: block; margin-left: auto; margin-right: auto;" width="800" height="293" /></p>
+<p>Un flujo de despliegue se define como:</p>
+<blockquote>
+<p>Una implementación automatizada de los procesos de construcción, despliegue, prueba y entrega para un sistema de software.</p>
+</blockquote>
+<p><strong>Nota</strong>: <em>Colocamos las referencias y nombres de las fases en Inglés en base a toda el material disponible, el intentar cambiar por su tradducción puede generar confusiones.</em></p>
+<h3>Commit stage/Versionamiento de código</h3>
+<p><img src="git-logo.jpg" alt="Git SCM" title="Git SCM" width="467" height="200" /><img src="Mercurial-SCM-logo1.png" alt="Mercurial SCM" title="Mercurial SCM" width="490" height="200" /><img src="Fossil_SCM_logo.svg.png" alt="Fossil SCM" title="Fossil SCM" width="146" height="200" /></p>
+<p>Commit stage hace referencia al proceso de versionamiento del código fuente de sistemas de software; el proceso de programación de sistemas en una plataforma de desarrollo se versiona y comparte con los interesados en el sistema y sus cambios. Este proceso es esencial, pues asegura y prepara el sistemas para los siguientes puntos:</p>
+<ul>
+<li>Auditorías</li>
+<li>Procesos de calidad</li>
+<li>Automatización</li>
+</ul>
+<p>Este proceso se lleva adelante usando herramientas de control de versiones, paradójicamente las mejores herramientas son las de código abierto y no así las que son proveídas de forma privada. Entre los participantes más importantes podemos identificar a: Git, Mercurial y Fossil SCM.</p>
+<h3>Automated tests/Pruebas automatizadas</h3>
+<p><img src="Manual-vs-automated-1.png" alt="manual vs automated" title="manual vs automated" style="display: block; margin-left: auto; margin-right: auto;" width="573" height="300" /></p>
+<p>El proceso de pruebas automatizadas se define como el conjunto de tareas necesarias para llevar el código fuente de un sistema, tomado a partir de un sistema de control de versiones, hacia los artefactos necesarios para su despliegue en un ambiente objetivo. Este proceso se facilita con el uso de herramientas de construcción, las cuales gestionas las tareas de limpieza, compilación, empaquetamiento y ejecución de pruebas automatizadas en los sistemas de software.</p>
+<p>Históricamente los sistemas no son automatizados por defecto, se requiere una inversión importante de tiempo para automatizar la construcción de un sistema, y adicionalmente a esto, las pruebas automatizadas requieren también el trabajo del equipo de trabajo o de un equipo de aseguramiento de calidad. Las pruebas automatizadas verifican el funcionamiento correcto del sistema y sus partes, mas allá de su correctitud sintáctica y semántica (Freeman y Pryce, 2017).</p>
+<h3>Manual tests/Pruebas manuales</h3>
+<p><img src="software-tester_w_500.png" alt="software tester" title="software tester" style="display: block; margin-left: auto; margin-right: auto;" width="467" height="350" /></p>
+<p>A pesar de que todos los procesos pueden ser automatizados, no todos los procesos y flujos de trabajo existentes son identificados al momento de automatizar, es el trabajo de las pruebas manuales el identificar todos los procesos que no esten ejecutándose con el resultado esperado. Una vez identificados estos procesos y flujos de trabajo, se procede a su automatización en una siguiente iteración (asumiendo que estamos usando un proceso iterativo e incremental).</p>
+<p>Las pruebas manuales tienen un grado alto de subjetividad, es muy dependiente de las habilidades y contexto de los testers. Por este motivo, es importante invertir tiempo y recursos en formar un equipo o personas individuales con habilidades para identificar fallos en sistemas de software.</p>
+<h3>Release/Entrega</h3>
+<p><img src="Software-release-schedule-Follow-My-Vote.jpg" alt="software release" title="software release" style="display: block; margin-left: auto; margin-right: auto;" width="1053" height="350" /></p>
+<p>El proceso de entrega de un sistema de software a un ambiente determinado permite acceder a los usuarios finales o usuarios objetivo al sistema en desarrollo (un sistema esta en desarrollo hasta que se pasa a obsolescencia). El proceso de entrega es manual en un inicio, pero automatizable a través de diferentes ambientes, y dependiendo del ambiente de despliegue.</p>
+<p>Idealmente se requieren al menos dos ambientes de despliegue para sistemas de software: ambiente de prueba y ambiente de producción. Para estos ambientes se tienen algunos requerimientos orientados a reducir problemas e inconvenientes futuros:</p>
+<ul>
+<li>Integración y producción deben ser idénticos en recursos</li>
+<li>Integración y producción deben ser idénticos en infraestructura de software (e.g. bases de datos, plataformas)</li>
+<li>Integración debe tener o simular la carga de producción</li>
+<li></li>
+</ul>
+<h2>Referencias</h2>
+<ul>
+<li>James Coplien and Gertrud Bjornvig. Lean Architecture. Wiley, 2015.</li>
+<li>Steve Freeman and Nat Pryce, Growing Object-Oriente Software with Tests. Pearson, 2017.</li>
+</ul></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Licensed under the</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution Share Alike License 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="status_quo.html" class="prev"><span><span>&laquo; </span>Previous</span></a> <span class="sep">| </span><a href="principios_lean.html" class="next"><span>Next<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<script type="text/javascript" src="_intef_js.js"></script></body></html>

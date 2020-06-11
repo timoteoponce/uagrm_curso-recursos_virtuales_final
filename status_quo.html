@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Status Quo | Despliegue continuo de sistemas de software </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Juan Timoteo Ponce Ortiz" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.5 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-web-site" id="exe-node-5"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Skip navigation</a></p>
+<header id="header" ><div id="headerContent">Despliegue continuo de sistemas de software</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Despliegue continuo de sistemas de software</a></li>
+   <li class="current-page-parent"><a href="fundamentos.html" class="current-page-parent daddy">Fundamentos</a>
+   <ul>
+      <li id="active"><a href="status_quo.html" class="active no-ch">Status Quo</a></li>
+      <li><a href="principios_de_despliegue.html" class="no-ch">Principios de despliegue</a></li>
+      <li><a href="principios_lean.html" class="no-ch">Principios Lean</a></li>
+      <li><a href="gestin_de_configuracin.html" class="no-ch">Gestión de configuración</a></li>
+      <li><a href="taller_construccin_automatizada.html" class="no-ch">Taller: Construcción automatizada</a></li>
+   </ul>
+   </li>
+   <li><a href="canales_de_despliegue.html" class="no-ch">Canales de despliegue</a></li>
+   <li><a href="infraestructura_de_despliegue.html" class="no-ch">Infraestructura de despliegue</a></li>
+   <li><a href="adaptaciones_de_produccin.html" class="no-ch">Adaptaciones de producción</a></li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="fundamentos.html" class="prev"><span><span>&laquo; </span>Previous</span></a> <span class="sep">| </span><a href="principios_de_despliegue.html" class="next"><span>Next<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">Status Quo</h1></header>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id5">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_list.png)"><h1 class="iDeviceTitle">Estado actual del despliegue de sistemas de software </h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta5_118_2" class="block iDevice_content">
+<div class="exe-text"><p>El objetivo de esta unidad es responder las siguientes preguntas:</p>
+<ul>
+<li>Qué significa "despliegue de sistemas de software"?</li>
+<li>Porqué es importante para un sistema desplegable?</li>
+<li>Porqué es tan crucial su automatización?</li>
+</ul>
+<h2>Diagnóstico</h2>
+<p>Podemos iniciar el análisis del estado actual del desarrollo de software con unas preguntas iniciales:</p>
+<h3>Cuál es el valor de un sistema de software que no está disponible a los usuarios finales?</h3>
+<p>Seguramente nos hemos encontrado con esta pregunta muchas veces, probablemente habremos trabajado en un sistema por semanas, meses o años. Todo nuestro esfuerzo esta orientado a que los usuarios finales del sistema encuentren utilidad en el trabajo que estamos desarrollando, pero tal utilidad no es visible hasta que ellos puedan realmente usarlo, ya sea a través de una aplicación de escritorio, a través de la web en un navegador, o como aplicación en sus dispositivos móviles.</p>
+<h3>Qué tan importante es el despliegue del sistema en el proceso de desarrollo de software?</h3>
+<p>La mayoría de los ambientes y procesos de desarrollo se enfocan más en en análisis, diseño y desarrollo de sistemas, dejando de lado su despliegue hasta etapas posteriores (Coplien, 2015).</p>
+<h3>Qué tanto ha evolucionado el despliegue de sistemas?</h3>
+<p><img src="cd.jpg" alt="Windows installation package" title="Windows installation package" style="display: block; margin-left: auto; margin-right: auto;" width="494" height="500" /></p>
+<p style="text-align: justify;">El área de despliegue de sistemas ha cambiado drásticamente en la última década, en años previos los despliegues incluían la producción y distribución de productos físicos como CD-ROM o DVD, con espacios de versionamiento largos, que podían ser cada N meses o incluso años. En tiempos más recientes la distribución de sistemas es frecuente y continua, podemos tomar como ejemplo las aplicaciones móviles, que tienen en promedio una docena de actualizaciónes semanales (Corden, 2019).</p>
+<h3 style="text-align: justify;">Que sucede con los sistemas cuando ya están desarrollados y verificados?</h3>
+<p>El escenario ideal del desarrollo clásico de sistemas es el de entregar sistemas completamente desarrollados, verificados y listos para su uso. Pero la realidad es muy diferente, 85% de los sistemas desarrollados tienen errores graves que deben ser corregidos, y muchos otros errores se llevan a producción y reparados sobre la marcha debido a la falta de tiempo (Coplien, 2015). La retroalimentación temprana es importante, pero los métodos de desarrollo actuales exigen un proceso constante de retroalimentación, está en nosotros como parte de los equipos de trabajo el facilitar esta retroalimentación tan necesaria para incrementar la calidad de los sistemas.</p>
+<h3 style="text-align: justify;">Cómo manejamos la retroalimentación de los usuarios finales?</h3>
+<p><img src="tracer_bullet.jpg" alt="Bala trazadora" title="Bala trazadora" style="display: block; margin-left: auto; margin-right: auto;" width="501" height="333" /></p>
+<p style="text-align: justify;">La respuesta corta es que no lo hacemos. La retroalimentación debe ser parte del proceso de desarrollo, y no un post-paso del mismo. La retroalimentación temprana funciona como un tipo de bala trazadora, nos permite identificar el objetivo en movimiento y corregir la dirección. Este tipo de información es vital para el desarrollo de sistemas, nos permite guíar los esfuerzos hacia una dirección común, y corregir las desviaciones de forma temprana. Este objetivo solamente se puede lograr con una retroalimentación constante y una mejora constante de los sistemas en tiempo desarrollo.</p>
+<h3 style="text-align: justify;">Cómo creamos valor de la retroalimentación?</h3>
+<p>Valor en un sistema puede tomarse desde diferentes puntos de vista, depende también del criterio de valor de cada organización, pero podemos listar unos cuantos aspectos que pueden valorizar más un sistema:</p>
+<ul>
+<li>Reducción de bugs</li>
+<li>Incremento de accesibilidad</li>
+<li>Reducción de uso de recursos</li>
+<li>Incremento en el rendimiento de tareas/procesos</li>
+<li>Eliminación de funcionalidad errónea o poco usada</li>
+</ul>
+<p style="text-align: justify;">Todos estos aspectos generan valor en un sistema, ya sea un valor directo subjetivo, como el grado de satisfacción de los usuarios finales para con el sistema. O la mejora con métricas objetivas, como la reducción del costo de soporte y mantenimiento en un sistema que se ha estabilizado debido al constante flujo de retroalimentación y corrección.</p>
+<h2>Referencias</h2>
+<ul>
+<li>James Coplien and Gertrud Bjornvig. Lean Architecture. Wiley, 2015.</li>
+<li>Elliot Corden. Google Summer Report, 2019.</li>
+</ul></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id8">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_gears.png)"><h1 class="iDeviceTitle">Recursos adicionales</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta8_121_2" class="block iDevice_content">
+<div class="exe-text"><p><iframe width="560" height="314" src="https://www.youtube.com/embed/mRax8ObIFxA" allowfullscreen="allowfullscreen"></iframe></p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Licensed under the</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution Share Alike License 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="fundamentos.html" class="prev"><span><span>&laquo; </span>Previous</span></a> <span class="sep">| </span><a href="principios_de_despliegue.html" class="next"><span>Next<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<script type="text/javascript" src="_intef_js.js"></script></body></html>

@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Fundamentos | Despliegue continuo de sistemas de software </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Juan Timoteo Ponce Ortiz" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.5 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-web-site" id="exe-node-1"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Skip navigation</a></p>
+<header id="header" ><div id="headerContent">Despliegue continuo de sistemas de software</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Despliegue continuo de sistemas de software</a></li>
+   <li id="active"><a href="fundamentos.html" class="active daddy">Fundamentos</a>
+   <ul>
+      <li><a href="status_quo.html" class="no-ch">Status Quo</a></li>
+      <li><a href="principios_de_despliegue.html" class="no-ch">Principios de despliegue</a></li>
+      <li><a href="principios_lean.html" class="no-ch">Principios Lean</a></li>
+      <li><a href="gestin_de_configuracin.html" class="no-ch">Gestión de configuración</a></li>
+      <li><a href="taller_construccin_automatizada.html" class="no-ch">Taller: Construcción automatizada</a></li>
+   </ul>
+   </li>
+   <li><a href="canales_de_despliegue.html" class="no-ch">Canales de despliegue</a></li>
+   <li><a href="infraestructura_de_despliegue.html" class="no-ch">Infraestructura de despliegue</a></li>
+   <li><a href="adaptaciones_de_produccin.html" class="no-ch">Adaptaciones de producción</a></li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="index.html" class="prev"><span><span>&laquo; </span>Previous</span></a> <span class="sep">| </span><a href="status_quo.html" class="next"><span>Next<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">Fundamentos</h1></header>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id0">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_presentation.png)"><h1 class="iDeviceTitle">Bienvenidos!</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta0_113_2" class="block iDevice_content">
+<div class="exe-text"><p style="text-align: justify;">Bienvenidos al curso de <strong>Despliegue Continuo de Sistemas de Software</strong>.</p>
+<p style="text-align: justify;">Para obtener mejores resultados de este curso, utilice todas las oportunidades que tenga para interactuar con los demás participantes del curso.</p>
+<p style="text-align: justify;">Demos inicio al curso presentándonos y conociéndonos, escriba un mensaje en la sección de comentarios con los siguientes puntos:</p>
+<ul>
+<li style="text-align: justify;">Cuál es el resultado esperado del curso?</li>
+<li>Díganos de su persona, en qué trabaja? como se relaciona su trabajo diario con el tema de Despliegue Continuo?</li>
+<li>Nota: No escriba nada que no crea pertinente para un foro público</li>
+</ul>
+<p style="text-align: justify;">Cuando haya escrito un mensaje con los datos mencionados, tómese un tiempo para navegar los comentarios de otros participantes, respondiendo e interactuando con ellos si así lo prefiere.</p>
+<p></p>
+<p style="text-align: justify;">En lo restante de esta sección, veremos cómo el Despliegue Continuo se dió en la industria del software, su uso actual y su gran utilidad para entregar sistemas de software de forma rápida a los usuarios finales. Revisaremos un poco sobre los fundamentos en los que se basa Despliegue Continuo, y posteriormente nos pondremos "manos a la obra" con ejemplos reales.</p>
+<h2>Recursos adicionales</h2>
+<p style="text-align: justify;">Durante el curso será necesario revisar diferentes fuentes, a continuación se listan los recursos en los que se basa la asignatura, tome en cuenta que su lectura y referencia no es obligatoria, pero sirven como documentos de apoyo durante los diferentes temas que veremos:</p>
+<p><img src="devops_book.jpg" width="350" height="459" /></p>
+<p><a href="https://www.amazon.com/Effective-DevOps-Building-Collaboration-Affinity/dp/1491926309/ref=sr_1_1?dchild=1&amp;keywords=effective+devops&amp;qid=1591728412&amp;s=books&amp;sr=1-1">Effective DevOps, 2016. Davis, Daniels</a>.</p>
+<p><img src="lean_enterprise.jpg" width="350" height="536" /></p>
+<p><a href="https://www.amazon.com/Lean-Enterprise-Performance-Organizations-Innovate/dp/1449368425">Lean Enterprise, 2015. Humble, Jez</a>.</p>
+<p><img src="Using-Docker-1.jpg" width="350" height="459" /></p>
+<p><a href="https://www.amazon.com/Using-Docker-Developing-Deploying-Containers/dp/1491915765/ref=sr_1_1?crid=2MVJC9PI1TW3D&amp;dchild=1&amp;keywords=using+docker&amp;qid=1591728388&amp;s=books&amp;sprefix=using+docker%2Cstripbooks-intl-ship%2C336&amp;sr=1-1">Using Docker, 2018. Mouat, Adrian</a>.</p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Licensed under the</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution Share Alike License 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="index.html" class="prev"><span><span>&laquo; </span>Previous</span></a> <span class="sep">| </span><a href="status_quo.html" class="next"><span>Next<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<script type="text/javascript" src="_intef_js.js"></script></body></html>
