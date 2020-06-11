@@ -45,6 +45,138 @@
 <div id="main-wrapper">
 <section id="main">
 <header id="nodeDecoration"><h1 id="nodeTitle">Gestión de configuración</h1></header>
+<article class="iDevice_wrapper textIdevice" id="id15">
+<div class="iDevice emphasis0" >
+<div id="ta15_111_2" class="block iDevice_content">
+<div class="exe-text"><p><img src="deployment_comic.jpg" alt="Deployment comic" title="Deployment comic" style="display: block; margin-left: auto; margin-right: auto;" width="330" height="500" /></p>
+<p>La gestión de configuración de software es una tarea que hace algunos años se consideraba rutinaria, pero debido al incremento de los servicios en línea y su amplia disponibilidad se ha convertido en un área de trabajo importante.</p>
+<blockquote class="exe-quote-cite styled-qc">
+<p>Gestión de configuración es el proceso por el cual todos los artefactos relevantes a un proyecto, sus dependencias y referencias, son obtenidos, almacenados, identificados y modificados</p>
+<cite>(Humble, 2015)</cite></blockquote>
+<p>Para considerar que un ambiente de uno o mas proyectos de desarrollo de software cuentan con una gestión de configuración adecuada, podemos aplicar las siguientes preguntas:</p>
+<ol>
+<li>Puedo reproducir los ambientes de despliegue automáticamente?</li>
+<li>Puedo cambiar entre múltiples ambientes de despliegue?</li>
+<li>Puedo revisar y monitorear cambios en los ambientes de despliegue?</li>
+<li>Puedo revertir los cambios de un despliegue?</li>
+</ol>
+<p>Si se contesta de forma afirmativa todas estas preguntas, podemos considerar a la gestión de configuración como correcta, de otro modo estamos en un ambiente de incertidumbre para los ambientes de trabajo.</p>
+<p>Se debe aclarar que la gestión de configuración se refiere a todas las posibles configuraciones que están presentes en el desarrollo y despliegue de sistemas, podemos ver estos tipos de configuración esquematizados en el siguiente gráfico:</p>
+<p><img src="types_configuration.png" alt="Types of configuration" title="Types of configuration" style="display: block; margin-left: auto; margin-right: auto;" width="675" height="400" /></p>
+<h3>Build time/Tiempo de construcción</h3>
+<p>El tiempo de construcción se refiere a las configuraciones necesarias para obtener el código fuente de un sistema y, a través de un proceso de construcción automatizada, llevar estas fuentes hasta un artifacto desplegable. Cabe recalcar que como artefacto desplegable tiene dependencias de las plataformas de ejecución, asi como de los ambientes y su configuración, este es un proceso agnóstico a los ambientes externos.</p>
+<h3>Packaging time/Tiempo de empaquetamiento</h3>
+<p>El tiempo de empaquetamiento incluye todas las tareas y configuraciones necesarias para crear y administrar ambientes de despliegue, ya sean de integración, prueba o producción. En esta fase los artefactos de la fase previa se configuran para un ambiente específico, y se permite la entrega y/o administración de sus ambientes de despliegue.</p>
+<h3>Deployment time/Tiempo de despliegue</h3>
+<p>En esta fase el despliegue se hace efectivo en instancias públicas, ya sea para pruebas y verificaciones o para su uso en producción. Estas configuraciones incluyen el uso de referencias y dependencias externas, tales como servicios en línea para almacenamiento y publicación de recursos.</p>
+<h3>Startup time/Tiempo de inicio</h3>
+<p>Fase final donde las configuraciones de servicios referenciados y dependencias externas se inician, sanitizan y preparan para su interacción con el sistema a desplegar. En esta fase los diferentes elementos debe orquestrarse para su uso compartido e integrado con el sistema a desplegar.</p>
+<h2> Referencias</h2>
+<ul>
+<li>JezHumble. Continuous Delivery, 2015.</li>
+</ul>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p></div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper MultichoiceIdevice em_iDevice" id="id16">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Revisión</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<section class="question">
+<form name="multi-choice-form-16_86" action="#" onsubmit="return false" class="activity-form">
+<h1 class="js-sr-av">Question</h1>
+<div id="taquestion16_86" class="block question iDevice_content">
+<p>Se puede llevar adelante un proceso de despliegue continuo sin una gestión de configuración apropiada?</p>
+</div>
+<section class="iDevice_hint">
+<h1 class="iDevice_hint_title">Hint</h1>
+<div class="iDevice_hint_content js-hidden">
+<div id="tahint16_86" class="block iDevice_content">
+<p><iframe width="560" height="314" src="https://www.youtube.com/embed/xoMgnJDXd3k" allowfullscreen="allowfullscreen"></iframe></p>
+</div>
+</div>
+</section>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Answers</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="i16_89" class="sr-av"><a href="#answer-16_89">Option 1</a></label><input type="radio" name="option16_86" id="i16_89" class="exe-radio-option exe-radio-option-0-4-16_86-multi"/>
+</p>
+<div class="iDevice_answer-content" id="answer-16_89"><div id="taans16_89" class="block iDevice_content">
+<p>Siempre</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="i16_238" class="sr-av"><a href="#answer-16_238">Option 2</a></label><input type="radio" name="option16_86" id="i16_238" class="exe-radio-option exe-radio-option-1-4-16_86-multi"/>
+</p>
+<div class="iDevice_answer-content" id="answer-16_238"><div id="taans16_238" class="block iDevice_content">
+<p>A veces</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="i16_241" class="sr-av"><a href="#answer-16_241">Option 3</a></label><input type="radio" name="option16_86" id="i16_241" class="exe-radio-option exe-radio-option-2-4-16_86-multi"/>
+</p>
+<div class="iDevice_answer-content" id="answer-16_241"><div id="taans16_241" class="block iDevice_content">
+<p>No es necesario</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="i16_244" class="sr-av"><a href="#answer-16_244">Option 4</a></label><input type="radio" name="option16_86" id="i16_244" class="exe-radio-option exe-radio-option-3-4-16_86-multi"/>
+</p>
+<div class="iDevice_answer-content" id="answer-16_244"><div id="taans16_244" class="block iDevice_content">
+<p>Es muy dificil o imposible</p>
+</div>
+</div>
+</section>
+</section>
+<section class="iDevice_feedbacks js-feedback">
+<h1 class="js-sr-av">Feedback</h1>
+<section id="sa0b16_86" class="feedback js-hidden">
+<p>Wrong</p>
+</section>
+<section id="sa1b16_86" class="feedback js-hidden">
+<p>Wrong</p>
+</section>
+<section id="sa2b16_86" class="feedback js-hidden">
+<p>Wrong</p>
+</section>
+<section id="sa3b16_86" class="feedback js-hidden">
+<p>Correct Option</p>
+</section>
+</section>
+</form>
+<section class="iDevice_solution feedback js-hidden">
+<h1>Solution</h1>
+<ol>
+<li><a href="#answer-16_89">Wrong</a><span> (<a href="#sa0b16_86">Feedback</a>)</span></li>
+<li><a href="#answer-16_238">Wrong</a><span> (<a href="#sa1b16_86">Feedback</a>)</span></li>
+<li><a href="#answer-16_241">Wrong</a><span> (<a href="#sa2b16_86">Feedback</a>)</span></li>
+<li><a href="#answer-16_244">Correct Option</a><span> (<a href="#sa3b16_86">Feedback</a>)</span></li>
+</ol>
+</section>
+</section>
+</div>
+</div>
+</div>
+</article>
 <div id="packageLicense" class="cc cc-by-sa">
 <p><span>Licensed under the</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution Share Alike License 4.0</a></p>
 </div>
